@@ -117,10 +117,4 @@ if __name__ == "__main__":
                     search_results.extend(last_msg.content)
         
         print("Final Search Results:\n", search_results)
-        markdown_file_generator(str(search_results))
-
-
-            
-        # print("Generating Markdown file with the research findings...")
-        # markdown_file_generator(final_res)
-    
+        markdown_file_generator(str(search_results))    
